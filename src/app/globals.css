@@ -4,8 +4,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ededed;
-  --foreground: #0a0a0a;
+  --background: #f0f0f0;
+  --foreground: #131313;
 
   --font-switzer: "Switzer", Helvetica, Arial, sans-serif;
   --font-manrope: "Manrope", "Segoe UI", "Roboto", sans-serif;
@@ -20,14 +20,45 @@
   --font-work: var(--font-work);
 }
 
+.glass-effect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgb(208, 208, 208);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+.violet-text {
+  color: #4b4ef9;
+}
+.violet-hover:hover {
+  color: #4b4ef9;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* --background: url("/dark-background.jpg") no-repeat center center / cover; */
+    --background: #131313;
+    --foreground: #f0f0f0;
+  }
+
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(208, 208, 208);
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+  }
+
+  .violet-text {
+    color: #c0c1ff;
+  }
+  .violet-hover:hover {
+    color: #c0c1ff;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-manrope);
 }
