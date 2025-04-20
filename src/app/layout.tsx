@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
-      <body className="flex flex-col min-h-screen">
+    <html className="dark">
+      <body className="flex flex-col">
         <Navbar />
-        <main className="flex-grow m-10">{children}</main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>

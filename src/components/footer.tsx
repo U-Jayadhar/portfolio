@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-[50vw] font-switzer flex flex-col self-center pb-8 px-10">
+    <footer className="min-w-full font-switzer flex flex-col self-center text-center pb-8 px-10">
       <div className="flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <a
@@ -13,7 +13,7 @@ export default function Footer() {
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-6 h-6 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
+              className="w-5 h-5 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
@@ -46,7 +46,7 @@ export default function Footer() {
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-6 h-6 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
+              className="w-5 h-5 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
@@ -72,7 +72,7 @@ export default function Footer() {
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              className="w-6 h-6 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
+              className="w-5 h-5 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
@@ -123,7 +123,7 @@ export default function Footer() {
           Write to me
         </a>
       </div>
-      <p className="self-center text-gray-600 dark:text-gray-400 mt-2">
+      <p className="max-w-[50ch] self-center text-gray-600 dark:text-gray-400 mt-2">
         © 2025 Jayadhar Ummadisingu. All rights reserved.
       </p>
     </footer>

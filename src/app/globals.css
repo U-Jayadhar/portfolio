@@ -2,9 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #f0f0f0;
+  /* --background: url("/dark-background.jpg") no-repeat center center / cover; */
+  --background: #d8d8d8;
   --foreground: #131313;
 
   --font-switzer: "Switzer", Helvetica, Arial, sans-serif;
@@ -19,42 +21,29 @@
   --font-manrope: var(--font-manrope);
   --font-work: var(--font-work);
 }
-
-.glass-effect {
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(10px);
-  border: 2px solid rgb(208, 208, 208);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 25px;
-}
 .violet-text {
   color: #4b4ef9;
 }
+.violet-hover {
+  transition: transform 0.2s;
+  display: inline-block;
+}
 .violet-hover:hover {
   color: #4b4ef9;
+  transform: scale(1.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* --background: url("/dark-background.jpg") no-repeat center center / cover; */
-    --background: #131313;
-    --foreground: #f0f0f0;
-  }
-
-  .glass-effect {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 2px solid rgb(208, 208, 208);
-    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
-    border-radius: 25px;
-  }
-
-  .violet-text {
-    color: #c0c1ff;
-  }
-  .violet-hover:hover {
-    color: #c0c1ff;
-  }
+:root.dark {
+  /* --background: url("/dark-background.jpg") no-repeat center center / cover; */
+  --background: #131313;
+  --foreground: #d8d8d8;
+}
+.dark .violet-text {
+  color: #c0c1ff;
+}
+.dark .violet-hover:hover {
+  color: #c0c1ff;
+  transform: scale(1.1);
 }
 
 body {
