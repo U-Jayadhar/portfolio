@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="dark">
+    <html className="dark scroll-smooth" lang="en">
       <body className="flex flex-col">
         <Navbar />
         <main className="flex-grow">{children}</main>

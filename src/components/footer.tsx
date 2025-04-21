@@ -13,7 +13,7 @@ export default function Footer() {
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
+              className="w-5 h-5 mr-2 hover:scale-120 transition-transform duration-300"
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
@@ -46,7 +46,7 @@ export default function Footer() {
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
+              className="w-5 h-5 mr-2 hover:scale-120 transition-transform duration-300"
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
@@ -72,7 +72,7 @@ export default function Footer() {
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              className="w-5 h-5 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
+              className="w-5 h-5 mr-2 hover:scale-120 transition-transform duration-300"
             >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
@@ -100,7 +100,7 @@ export default function Footer() {
             fill="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 mr-2 dark:text-white hover:scale-120 transition-transform duration-300"
+            className="w-6 h-6 mr-2 hover:scale-120 transition-transform duration-300"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g

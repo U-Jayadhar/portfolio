@@ -8,6 +8,8 @@
   /* --background: url("/dark-background.jpg") no-repeat center center / cover; */
   --background: #d8d8d8;
   --foreground: #131313;
+  --vl: #585bff;
+  --vd: #9697ff;
 
   --font-switzer: "Switzer", Helvetica, Arial, sans-serif;
   --font-manrope: "Manrope", "Segoe UI", "Roboto", sans-serif;
@@ -20,16 +22,18 @@
   --font-switzer: var(--font-switzer);
   --font-manrope: var(--font-manrope);
   --font-work: var(--font-work);
+  --color-vl: var(--vl);
+  --color-vd: var(--vd);
 }
 .violet-text {
-  color: #4b4ef9;
+  color: var(--vl);
 }
 .violet-hover {
   transition: transform 0.2s;
   display: inline-block;
 }
 .violet-hover:hover {
-  color: #4b4ef9;
+  color: var(--vl);
   transform: scale(1.1);
 }
 
@@ -39,10 +43,10 @@
   --foreground: #d8d8d8;
 }
 .dark .violet-text {
-  color: #c0c1ff;
+  color: var(--vd);
 }
 .dark .violet-hover:hover {
-  color: #c0c1ff;
+  color: var(--vd);
   transform: scale(1.1);
 }
 

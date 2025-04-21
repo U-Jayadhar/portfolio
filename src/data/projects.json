@@ -1,0 +1,80 @@
+[
+  {
+    "id": "101",
+    "category": "Web",
+    "title": "Project A",
+    "description": "Description of Project A",
+    "image": "https://example.com/image1.jpg",
+    "techStack": ["JavaScript", "React", "Node.js"],
+    "github": "https://github.com/U-Jayadhar?tab=repositories",
+    "live": "https://ujayadhar.vercel.app/"
+  },
+  {
+    "id": "102",
+    "category": "Web",
+    "title": "Project B",
+    "description": "Description of Project B",
+    "image": "https://example.com/image2.jpg",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/U-Jayadhar?tab=repositories",
+    "live": "https://ujayadhar.vercel.app/"
+  },
+  {
+    "id": "103",
+    "category": "App",
+    "title": "Project C",
+    "description": "Description of Project C",
+    "image": "https://example.com/image3.jpg",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/U-Jayadhar?tab=repositories",
+    "live": "https://ujayadhar.vercel.app/"
+  },
+  {
+    "id": "104",
+    "category": "Design",
+    "title": "Project D",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "https://example.com/image4.jpg",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "live": "https://ujayadhar.vercel.app/"
+  },
+  {
+    "id": "105",
+    "category": "App",
+    "title": "Project E",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "https://example.com/image5.jpg",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/U-Jayadhar?tab=repositories",
+    "live": "https://ujayadhar.vercel.app/"
+  },
+  {
+    "id": "106",
+    "category": "Design",
+    "title": "Project F",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "https://example.com/image6.jpg",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "live": "https://ujayadhar.vercel.app/"
+  },
+  {
+    "id": "107",
+    "category": "Web",
+    "title": "Project G",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "https://example.com/image7.jpg",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/U-Jayadhar?tab=repositories",
+    "live": "https://ujayadhar.vercel.app/"
+  },
+  {
+    "id": "108",
+    "category": "Web",
+    "title": "Project H",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "https://example.com/image8.jpg",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/U-Jayadhar?tab=repositories",
+    "live": "https://ujayadhar.vercel.app/"
+  }
+]
